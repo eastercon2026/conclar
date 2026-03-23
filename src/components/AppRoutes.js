@@ -25,6 +25,7 @@ import People from "./People";
 import Person from "./Person";
 import Info from "./Info";
 import Settings from "./Settings";
+import AltFormats from "./AltFormats";
 import Footer from "./Footer";
 
 const AppRoutes = () => {
@@ -68,6 +69,7 @@ const AppRoutes = () => {
             <Route path="myschedule" element={<MySchedule />} />
             <Route path="info" element={<Info />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="alt-formats" element={<AltFormats />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
