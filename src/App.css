@@ -1504,3 +1504,8 @@ div.uninteractive div.info {
 .debug span {
   padding: 0 1em;
 }
+
+.alt-formats-status {
+  color: gray;
+  margin-left: 0.5em;
+}

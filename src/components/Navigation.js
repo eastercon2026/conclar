@@ -34,6 +34,11 @@ const Navigation = ({ onNavigate } = {}) => {
           <NavLink to="/myschedule" onClick={onNavigate}>{configData.NAVIGATION.MYSCHEDULE}</NavLink>
         </li>
         {infoLink}
+        {"ALT_FORMATS" in configData.NAVIGATION && (
+          <li>
+            <NavLink to="/alt-formats" onClick={onNavigate}>{configData.NAVIGATION.ALT_FORMATS}</NavLink>
+          </li>
+        )}
         <li>
           <NavLink to="/settings" onClick={onNavigate}>{configData.NAVIGATION.SETTINGS}</NavLink>
         </li>

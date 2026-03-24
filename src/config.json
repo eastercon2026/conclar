@@ -48,7 +48,18 @@
     "SETTINGS": "Settings",
     "LOGIN": "Login",
     "LOGOUT": "Logout @username",
+    "ALT_FORMATS": "Alternative formats",
     "EXTRA": [{ "LABEL": "Member portal", "URL": "https://portal.eastercon2026.org" }]
+  },
+  "ALT_FORMATS": {
+    "FULL_SCHEDULE": "Full schedule",
+    "MY_SCHEDULE": "My schedule",
+    "PDF": "PDF",
+    "LARGE_PRINT_PDF": "Large print PDF",
+    "ICAL": "iCal",
+    "GENERATING": "Generating...",
+    "MY_SCHEDULE_EMPTY": "Select items in the programme to build your schedule.",
+    "TIME_CONTINUED": "(continued)"
   },
   "HELP_TEXT": {
     "WELCOME": "Welcome to ConClár. You can use the checkboxes next to programme items to make a personal schedule. You can view this on the My Schedule page, and share to other devices.",

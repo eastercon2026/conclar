@@ -81,7 +81,16 @@ The main place customisations go is the `src/config.json` file. Settings current
 - `NAVIGATION.PEOPLE`: Label for people menu.
 - `NAVIGATION.MYSCHEDULE`: Label for user's personal schedule.
 - `NAVIGATION.INFO`: Label for the Information menu link._
+- `NAVIGATION.ALT_FORMATS`: Label for the alternative formats menu link.
 - `NAVIGATION.EXTRA`: An array of extra menu links. Each entry should take the form: `{ "LABEL": "Octocon Home", "URL": "https://octocon.com" }`. To have no extra links, set to `"EXTRA": []` or delete `EXTRA` entry altogether.
+- `ALT_FORMATS.FULL_SCHEDULE`: Heading for the full schedule section.
+- `ALT_FORMATS.MY_SCHEDULE`: Heading for the personal schedule section.
+- `ALT_FORMATS.PDF`: Label for the PDF download link.
+- `ALT_FORMATS.LARGE_PRINT_PDF`: Label for the large print PDF download link.
+- `ALT_FORMATS.ICAL`: Label for the iCal download link.
+- `ALT_FORMATS.GENERATING`: Text shown while a PDF is being generated.
+- `ALT_FORMATS.MY_SCHEDULE_EMPTY`: Text shown when no items are selected for the personal schedule.
+- `ALT_FORMATS.TIME_CONTINUED`: Text appended to time headers in PDFs when a time slot spans multiple pages/columns.
 - `HELP_TEXT.WELCOME`: Text to display to new visitors who haven't selected any programme items.
 - `HELP_TEXT.SHARING`: Text to display when user has selected items, informing them of sharing options.
 - `HELP_TEXT.CLOSE_LABEL`: Label for button to dismiss help text.
