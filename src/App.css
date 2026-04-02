@@ -1027,6 +1027,10 @@ div.switch-wrapper {
   font-size: inherit;
 }
 
+.item-line2 {
+  clear: right;
+}
+
 .item-duration,
 .item-location,
 .item-tags {
