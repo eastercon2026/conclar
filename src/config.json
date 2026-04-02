@@ -208,16 +208,16 @@
     }
   },
   "LINKS": [
-    { "NAME": "signup", "TEXT": "Click to sign up", "TAG": "" },
+    { "NAME": "signup", "TEXT": "Sign up", "TAG": "" },
     {
-      "NAME": "meeting",
-      "TEXT": "Click to view stream",
+      "NAME": "stream",
+      "TEXT": "Stream",
       "TAG": "type:Streaming",
       "WHEN": ["during"]
     },
     {
-      "NAME": "recording",
-      "TEXT": "Click to view recording",
+      "NAME": "replay",
+      "TEXT": "Replay",
       "TAG": "",
       "WHEN": ["after"]
     }
