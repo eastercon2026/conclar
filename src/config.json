@@ -211,13 +211,13 @@
     { "NAME": "signup", "TEXT": "Sign up", "TAG": "" },
     {
       "NAME": "stream",
-      "TEXT": "Stream",
+      "TEXT": "Watch the stream",
       "TAG": "type:Streaming",
       "WHEN": ["during"]
     },
     {
       "NAME": "replay",
-      "TEXT": "Replay",
+      "TEXT": "Watch the replay",
       "TAG": "",
       "WHEN": ["after"]
     }
