@@ -210,7 +210,7 @@
   "LINKS": [
     { "NAME": "signup", "TEXT": "Sign up", "TAG": "" },
     {
-      "NAME": "stream",
+      "NAME": "streaming",
       "TEXT": "Watch the stream",
       "TAG": "type:Streaming",
       "WHEN": ["during"]
